@@ -156,3 +156,4 @@ int sacarPeorCalificacion(VariableAlumno* alumno, int* nAlumnos, int* opcion) {
 	return min;
 }
 
+void menu(){}
