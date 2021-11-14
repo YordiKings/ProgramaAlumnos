@@ -149,7 +149,7 @@ int sacarMejorCalificacion(VariableAlumno* alumno, int* nAlumnos, int* opcion) {
 int sacarPeorCalificacion(VariableAlumno* alumno, int* nAlumnos, int* opcion) {
 	int i = 0, min = 0;
 	for (; i < *nAlumnos; i++) {
-		if (alumno[min].calificaciones[*opcion] > alumno[i].calificaciones[*opcion]) {
+		if (alumno[min].calificaciones[*opcion] >  alumno[i].calificaciones[*opcion]) {
 			min = i;
 		}
 	}
