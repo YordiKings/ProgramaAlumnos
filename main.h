@@ -131,7 +131,7 @@ int sacarPeorPromedio(VariableAlumno* alumno, int* nAlumnos) {
 
 	int i = 0, min = 0;
 	for (; i < *nAlumnos; i++) {
-		if (alumno[min].promedio > alumno[i].promedio) {
+		if (alumno[min].promedio >  alumno[i].promedio) {
 			min = i;
 		}
 	}
